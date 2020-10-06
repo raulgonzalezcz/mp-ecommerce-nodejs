@@ -34,7 +34,7 @@ app.get('/pending', (req, res) => {
 })
 
 app.post('/notifications', (req, res) => {
-    console.log("Notification:", req)
+    console.log("Notification:", req.body)
     res.status(200).send();
 })
 
